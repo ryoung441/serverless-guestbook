@@ -8,7 +8,7 @@ const guestbook = {
     return $.ajax({
       type: 'GET',
       url: `${apiUrl}/read-guestbook-entries-sequence.json`,
-      dataType: 'json'
+      dataType: 'application/json; charset=utf-8'
     });
   },
   // add a single guestbood entry
