@@ -23,7 +23,7 @@ const guestbook = {
         email,
         comment,
       }),
-      dataType: 'json',
+      dataType: 'application/json; charset=utf-8',
     });
   }
 };
